@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={urbanist.className}>
         <ModalProvider />
-        {/* @ts-expect-error Server Component */}
+        {/* @ts-ignore*/}
         <Navbar />
         {children}
         <Footer />  
